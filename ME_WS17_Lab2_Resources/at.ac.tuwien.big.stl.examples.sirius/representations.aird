@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:at.ac.tuwien.big.stl="http://www.big.tuwien.ac.at/Stl" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.big.tuwien.ac.at/Stl platform:/resource/at.ac.tuwien.big.stl/model/stl.ecore http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_EVLsELTKEeecfM6xPduxhw" selectedViews="_FzYvcLTKEeecfM6xPduxhw" version="12.0.0.201704271200">
+    <semanticResources>Example2-ShelfSawingProductionLine.stl</semanticResources>
+    <semanticResources>CreationToolTestModel.stl</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_FzYvcLTKEeecfM6xPduxhw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_F1hdcLTKEeecfM6xPduxhw" name="Example2-ShelfSawingProductionLine" repPath="#_F1gPULTKEeecfM6xPduxhw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']"/>
+        <target xmi:type="at.ac.tuwien.big.stl:System" href="Example2-ShelfSawingProductionLine.stl#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_iT2F9bTPEeecfM6xPduxhw" name="Creation Tool Test STL Diagram" repPath="#_iT2F8LTPEeecfM6xPduxhw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']"/>
+        <target xmi:type="at.ac.tuwien.big.stl:System" href="CreationToolTestModel.stl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_F1gPULTKEeecfM6xPduxhw" name="Example2-ShelfSawingProductionLine">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_F1gPUbTKEeecfM6xPduxhw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_F1gPUrTKEeecfM6xPduxhw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_F1irkLTKEeecfM6xPduxhw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_F1irkbTKEeecfM6xPduxhw" type="Sirius" element="_F1gPULTKEeecfM6xPduxhw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_KDTFcrTKEeecfM6xPduxhw" type="2002" element="_KC2ZgbTKEeecfM6xPduxhw">
+          <children xmi:type="notation:Node" xmi:id="_KDTFdbTKEeecfM6xPduxhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KDTFdrTKEeecfM6xPduxhw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFd7TKEeecfM6xPduxhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFeLTKEeecfM6xPduxhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFc7TKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFdLTKEeecfM6xPduxhw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KDTFebTKEeecfM6xPduxhw" type="2002" element="_KDAKgLTKEeecfM6xPduxhw">
+          <children xmi:type="notation:Node" xmi:id="_KDTFfLTKEeecfM6xPduxhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KDTFfbTKEeecfM6xPduxhw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFfrTKEeecfM6xPduxhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFf7TKEeecfM6xPduxhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFerTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFe7TKEeecfM6xPduxhw" x="210"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KDTFgLTKEeecfM6xPduxhw" type="2002" element="_KDAKgrTKEeecfM6xPduxhw">
+          <children xmi:type="notation:Node" xmi:id="_KDTFg7TKEeecfM6xPduxhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KDTFhLTKEeecfM6xPduxhw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_KDTFh7TKEeecfM6xPduxhw" visible="false" type="3009" element="_KDAKhLTKEeecfM6xPduxhw">
+              <children xmi:type="notation:Node" xmi:id="_KDTFirTKEeecfM6xPduxhw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_KDTFi7TKEeecfM6xPduxhw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_KDgg1LTKEeecfM6xPduxhw" visible="false" type="3010" element="_KDJUc7TKEeecfM6xPduxhw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_KDgg1bTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_KDgg1rTKEeecfM6xPduxhw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFjLTKEeecfM6xPduxhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFjbTKEeecfM6xPduxhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFiLTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFibTKEeecfM6xPduxhw" x="30" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KDc2cLTKEeecfM6xPduxhw" visible="false" type="3009" element="_KDAKhrTKEeecfM6xPduxhw">
+              <children xmi:type="notation:Node" xmi:id="_KDddgLTKEeecfM6xPduxhw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_KDddgbTKEeecfM6xPduxhw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_KDgg17TKEeecfM6xPduxhw" visible="false" type="3010" element="_KDJUdbTKEeecfM6xPduxhw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_KDgg2LTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_KDgg2bTKEeecfM6xPduxhw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KDddgrTKEeecfM6xPduxhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KDddg7TKEeecfM6xPduxhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KDc2cbTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDc2crTKEeecfM6xPduxhw" x="170" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KDeEkLTKEeecfM6xPduxhw" visible="false" type="3009" element="_KDJUcbTKEeecfM6xPduxhw">
+              <children xmi:type="notation:Node" xmi:id="_KDgg0LTKEeecfM6xPduxhw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_KDgg0bTKEeecfM6xPduxhw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_KDgg2rTKEeecfM6xPduxhw" visible="false" type="3010" element="_KDTFcLTKEeecfM6xPduxhw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_KDgg27TKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_KDgg3LTKEeecfM6xPduxhw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KDgg0rTKEeecfM6xPduxhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KDgg07TKEeecfM6xPduxhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KDeEkbTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDeEkrTKEeecfM6xPduxhw" x="315" y="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFhbTKEeecfM6xPduxhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFhrTKEeecfM6xPduxhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFgbTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFgrTKEeecfM6xPduxhw" x="420"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_F1irkrTKEeecfM6xPduxhw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KC2ZgbTKEeecfM6xPduxhw" name="ProductionArea">
+      <target xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.0"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KC2ZgrTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KDAKgLTKEeecfM6xPduxhw" name="StoreArea">
+      <target xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.1"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDAKgbTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KDAKgrTKEeecfM6xPduxhw" name="Item Types">
+      <target xmi:type="at.ac.tuwien.big.stl:System" href="Example2-ShelfSawingProductionLine.stl#/"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:System" href="Example2-ShelfSawingProductionLine.stl#/"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDAKg7TKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_KDAKhLTKEeecfM6xPduxhw" name="RawShelf" visible="false">
+        <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDAKhbTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KDJUc7TKEeecfM6xPduxhw" name="Raw piece of wood" visible="false">
+          <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KDJUdLTKEeecfM6xPduxhw" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_KDAKhrTKEeecfM6xPduxhw" name="Shelf" visible="false">
+        <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDJUcLTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KDJUdbTKEeecfM6xPduxhw" name="Finished shelf" visible="false">
+          <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KDJUdrTKEeecfM6xPduxhw" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_KDJUcbTKEeecfM6xPduxhw" name="WoodWaste" visible="false">
+        <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDJUcrTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KDTFcLTKEeecfM6xPduxhw" name="Wood that goes to waste" visible="false">
+          <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KDTFcbTKEeecfM6xPduxhw" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_F1gPVLTKEeecfM6xPduxhw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer"/>
+    <target xmi:type="at.ac.tuwien.big.stl:System" href="Example2-ShelfSawingProductionLine.stl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_iT2F8LTPEeecfM6xPduxhw" name="Creation Tool Test STL Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_iT2F8bTPEeecfM6xPduxhw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_iT2F8rTPEeecfM6xPduxhw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_iT2F9rTPEeecfM6xPduxhw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_iT2F97TPEeecfM6xPduxhw" type="Sirius" element="_iT2F8LTPEeecfM6xPduxhw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_iZW4ErTPEeecfM6xPduxhw" type="2002" element="_iZW4ELTPEeecfM6xPduxhw">
+          <children xmi:type="notation:Node" xmi:id="_iZW4FbTPEeecfM6xPduxhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_iZW4FrTPEeecfM6xPduxhw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_iZW4F7TPEeecfM6xPduxhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_iZW4GLTPEeecfM6xPduxhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_iZW4E7TPEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iZW4FLTPEeecfM6xPduxhw"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_iT2F-LTPEeecfM6xPduxhw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iZW4ELTPEeecfM6xPduxhw" name="Item Types">
+      <target xmi:type="at.ac.tuwien.big.stl:System" href="CreationToolTestModel.stl#/"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:System" href="CreationToolTestModel.stl#/"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iZW4EbTPEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_iT2F9LTPEeecfM6xPduxhw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer"/>
+    <target xmi:type="at.ac.tuwien.big.stl:System" href="CreationToolTestModel.stl#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<at.ac.tuwien.big.stl:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:at.ac.tuwien.big.stl="http://www.big.tuwien.ac.at/Stl" name="IAFProductionLine">
+  <areas name="Area1">
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a1_t1" cost="200">
+      <outputSlots name="a1_t1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_t1_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a1_t2" cost="200">
+      <outputSlots name="a1_t2_output2" requiredType="//@itemTypes.0"/>
+      <outputSlots name="a1_t2_output1" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_t2_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a1_t3" cost="200">
+      <outputSlots name="a1_t3_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_t3_input1" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_t3_input2" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a1_t4" cost="200">
+      <outputSlots name="a1_t4_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_t4_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Machine" name="a1_m1" cost="1000">
+      <services name="Weld" cost="10" processingTime="60" reliability="0.96"/>
+      <services name="Drill" cost="5" processingTime="30" reliability="0.99">
+        <parameters name="x"/>
+        <parameters name="y"/>
+      </services>
+      <outputSlots name="a1_m1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_m1_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Conveyor" name="a1_c1" cost="200">
+      <outputSlots name="a1_c1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_c1_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Conveyor" name="a1_c2" cost="200">
+      <outputSlots name="a1_c2_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_c2_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Conveyor" name="a1_c3" cost="200">
+      <outputSlots name="a1_c3_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a1_c3_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <connectors entry="//@areas.0/@components.4/@outputSlots.0" exit="//@areas.0/@components.1/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.1/@outputSlots.1" exit="//@areas.0/@components.5/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.5/@outputSlots.0" exit="//@areas.0/@components.2/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.2/@outputSlots.0" exit="//@areas.0/@components.6/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.6/@outputSlots.0" exit="//@areas.0/@components.3/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.3/@outputSlots.0" exit="//@areas.0/@components.7/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.7/@outputSlots.0" exit="//@areas.0/@components.0/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.0/@outputSlots.0" exit="//@areas.0/@components.4/@inputSlots.0"/>
+    <connectors entry="//@areas.0/@components.1/@outputSlots.0" exit="//@areas.1/@components.0/@inputSlots.0"/>
+  </areas>
+  <areas name="Area2">
+    <components xsi:type="at.ac.tuwien.big.stl:Conveyor" name="a2_c1" cost="200">
+      <outputSlots name="a2_c1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a2_c1_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Machine" name="a2_m1" cost="1000">
+      <services name="Weld" cost="10" processingTime="60" reliability="0.96"/>
+      <services name="Drill" cost="5" processingTime="30" reliability="0.99">
+        <parameters name="x"/>
+        <parameters name="y"/>
+      </services>
+      <outputSlots name="a2_m1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a2_m1_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <connectors entry="//@areas.1/@components.0/@outputSlots.0" exit="//@areas.2/@components.0/@inputSlots.0"/>
+    <connectors entry="//@areas.1/@components.1/@outputSlots.0" exit="//@areas.0/@components.2/@inputSlots.1"/>
+  </areas>
+  <areas name="Area3">
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a3_t1" cost="200">
+      <outputSlots name="a3_t1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_t1_input1" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_t1_input2" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a3_t4" cost="200">
+      <outputSlots name="a3_t4_output2" requiredType="//@itemTypes.0"/>
+      <outputSlots name="a3_t4_output1" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_t4_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Conveyor" name="a3_c3" cost="200">
+      <outputSlots name="a3_c3_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_c3_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Machine" name="a3_m1" cost="1000">
+      <services name="Weld" cost="10" processingTime="60" reliability="0.96"/>
+      <services name="Drill" cost="5" processingTime="30" reliability="0.99">
+        <parameters name="x"/>
+        <parameters name="y"/>
+      </services>
+      <outputSlots name="a3_m1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_m1_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a3_t2" cost="200">
+      <outputSlots name="a3_t2_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_t2_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Conveyor" name="a3_c1" cost="200">
+      <outputSlots name="a3_c1_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_c1_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:TurnTable" name="a3_t3" cost="200">
+      <outputSlots name="a3_t3_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_t3_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <components xsi:type="at.ac.tuwien.big.stl:Conveyor" name="a3_c2" cost="200">
+      <outputSlots name="a3_c2_output" requiredType="//@itemTypes.0"/>
+      <inputSlots name="a3_c2_input" requiredType="//@itemTypes.0"/>
+    </components>
+    <connectors entry="//@areas.2/@components.0/@outputSlots.0" exit="//@areas.2/@components.3/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.3/@outputSlots.0" exit="//@areas.2/@components.4/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.4/@outputSlots.0" exit="//@areas.2/@components.5/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.5/@outputSlots.0" exit="//@areas.2/@components.6/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.6/@outputSlots.0" exit="//@areas.2/@components.7/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.7/@outputSlots.0" exit="//@areas.2/@components.1/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.1/@outputSlots.0" exit="//@areas.1/@components.1/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.1/@outputSlots.1" exit="//@areas.2/@components.2/@inputSlots.0"/>
+    <connectors entry="//@areas.2/@components.2/@outputSlots.0" exit="//@areas.2/@components.0/@inputSlots.1"/>
+  </areas>
+  <itemTypes name="DummyWoodItem" description="Log of wood simulating items processed by this production line."/>
+</at.ac.tuwien.big.stl:System>

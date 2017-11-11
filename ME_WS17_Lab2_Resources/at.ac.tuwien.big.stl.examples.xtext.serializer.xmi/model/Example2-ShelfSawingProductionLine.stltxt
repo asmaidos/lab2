@@ -1,0 +1,68 @@
+system ShelfSawingProductionLine{
+	item RawShelf="Raw piece of wood"
+	item Shelf="Finished shelf"
+	item WoodWaste="Wood that goes to waste"
+	
+	area ProductionArea {
+		
+		generator RawShelfProducer generates RawShelf(cost=1000){
+			output RawShelfProducer_Output:RawShelf
+		}
+		
+		conveyor ToBufferConveyor(cost=200){
+			input ToBufferConveyor_Input:RawShelf
+			output ToBufferConveyor_Output:RawShelf
+		}
+		
+		buffer Buffer(cost=200){
+			input Buffer_Input:RawShelf
+			output Buffer_Output:RawShelf
+		}
+		
+		machine SawingMachine(cost=1000){
+			input SawingMachine_Input:RawShelf
+			output SawingMachine_ProductOutput:Shelf
+			output SawingMachine_WasteOutput:WoodWaste
+			
+			service Saw(cost=5,reliability=0.99,processingTime=30){
+				input x
+				input y
+				input z
+			}
+		}
+		
+		conveyor ToShelfStoreConveyor(cost=200){
+			input ToShelfStoreConveyor_Input:Shelf
+			output ToShelfStoreConveyor_Output:Shelf
+		}
+		
+		conveyor ToWasteStoreConveyor(cost=200){
+			input ToWasteStoreConveyor_Input:WoodWaste
+			output ToWasteStoreConveyor_Output:WoodWaste
+		}
+		
+		turntable TurnTable(cost=200){
+			input TurnTable_Input:WoodWaste
+			output TurnTable_Output:WoodWaste
+		}
+		
+		RawShelfProducer_Output > ToBufferConveyor_Input
+		Buffer_Output > SawingMachine_Input	
+		ToBufferConveyor_Output > Buffer_Input
+		SawingMachine_ProductOutput > ToShelfStoreConveyor_Input
+		SawingMachine_WasteOutput > TurnTable_Input
+		TurnTable_Output > ToWasteStoreConveyor_Input
+		ToWasteStoreConveyor_Output > WoodWasteStore_Input
+		ToShelfStoreConveyor_Output > ShelfStore_Input 
+	}
+	
+	area StoreArea {
+		productStore ShelfStore(cost=1000,capacity=500){
+			input ShelfStore_Input:Shelf
+		}
+		
+		wasteStore WoodWasteStore(cost=800,capacity=5000){
+			input WoodWasteStore_Input:WoodWaste
+		}
+	}
+}

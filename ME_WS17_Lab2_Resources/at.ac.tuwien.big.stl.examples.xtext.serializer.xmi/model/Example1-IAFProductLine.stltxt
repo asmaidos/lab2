@@ -1,0 +1,144 @@
+system IAFProductionLine {
+	item DummyWoodItem="Log of wood simulating items processed by this production line."
+	
+	area Area1{
+		
+		turntable a1_t1 (cost=200){
+			input a1_t1_input : DummyWoodItem
+			output a1_t1_output : DummyWoodItem
+		}
+		
+		turntable a1_t2 (cost=200){
+			input a1_t2_input : DummyWoodItem
+			output a1_t2_output2 : DummyWoodItem
+			output a1_t2_output1 : DummyWoodItem
+		}
+		
+		turntable a1_t3 (cost=200){
+			input a1_t3_input1 : DummyWoodItem
+			input a1_t3_input2: DummyWoodItem
+			output a1_t3_output : DummyWoodItem
+		}
+		
+		turntable a1_t4 (cost=200){
+			input a1_t4_input : DummyWoodItem
+			output a1_t4_output : DummyWoodItem
+		}
+		
+		machine a1_m1 (cost=1000){
+			input a1_m1_input : DummyWoodItem
+			output a1_m1_output : DummyWoodItem
+			service Weld(cost=10,reliability=0.96,processingTime=60)
+			service Drill(cost=5,reliability=0.99,processingTime=30){
+				input x
+				input y
+			}
+		}
+		
+		conveyor a1_c1 (cost=200){
+			input a1_c1_input : DummyWoodItem
+			output a1_c1_output : DummyWoodItem
+		}
+		
+		conveyor a1_c2 (cost=200){
+			input a1_c2_input : DummyWoodItem
+			output a1_c2_output : DummyWoodItem
+		}
+		
+		conveyor a1_c3 (cost=200){
+			input a1_c3_input : DummyWoodItem
+			output a1_c3_output : DummyWoodItem
+		}
+		
+		a1_m1_output > a1_t2_input
+		a1_t2_output1 > a1_c1_input
+		a1_c1_output > a1_t3_input1
+		a1_t3_output > a1_c2_input
+		a1_c2_output > a1_t4_input
+		a1_t4_output > a1_c3_input
+		a1_c3_output > a1_t1_input
+		a1_t1_output > a1_m1_input
+		a1_t2_output2 > a2_c1_input
+	}
+	
+	area Area2{
+		
+		conveyor a2_c1 (cost=200){
+			input a2_c1_input : DummyWoodItem
+			output a2_c1_output : DummyWoodItem
+		}
+		
+		machine a2_m1 (cost=1000){
+			input a2_m1_input : DummyWoodItem
+			output a2_m1_output : DummyWoodItem
+			service Weld(cost=10,reliability=0.96,processingTime=60)
+			service Drill(cost=5,reliability=0.99,processingTime=30){
+				input x
+				input y
+			}
+		}
+		a2_c1_output > a3_t1_input1
+		a2_m1_output > a1_t3_input2
+	}
+	
+	area Area3{
+		
+		turntable a3_t1 (cost=200){
+			input a3_t1_input1 : DummyWoodItem
+			input a3_t1_input2 : DummyWoodItem
+			output a3_t1_output : DummyWoodItem
+		}
+		
+		turntable a3_t4 (cost=200){
+			input a3_t4_input : DummyWoodItem
+			output a3_t4_output2 : DummyWoodItem
+			output a3_t4_output1 : DummyWoodItem
+		}
+		
+		conveyor a3_c3 (cost=200){
+			input a3_c3_input : DummyWoodItem
+			output a3_c3_output : DummyWoodItem
+		}
+		
+		machine a3_m1 (cost=1000){
+			input a3_m1_input : DummyWoodItem
+			output a3_m1_output : DummyWoodItem
+			service Weld(cost=10,reliability=0.96,processingTime=60)
+			service Drill(cost=5,reliability=0.99,processingTime=30){
+				input x
+				input y
+			}
+		}
+		
+		turntable a3_t2 (cost=200){
+			input a3_t2_input : DummyWoodItem
+			output a3_t2_output : DummyWoodItem
+		
+		}
+		
+		conveyor a3_c1 (cost=200){
+			input a3_c1_input : DummyWoodItem
+			output a3_c1_output : DummyWoodItem
+		}
+		
+		turntable a3_t3 (cost=200){
+			input a3_t3_input : DummyWoodItem
+			output a3_t3_output : DummyWoodItem
+		}
+		
+		conveyor a3_c2 (cost=200){
+			input a3_c2_input : DummyWoodItem
+			output a3_c2_output : DummyWoodItem
+		}
+		
+		a3_t1_output > a3_m1_input
+		a3_m1_output > a3_t2_input
+		a3_t2_output > a3_c1_input
+		a3_c1_output > a3_t3_input
+		a3_t3_output > a3_c2_input
+		a3_c2_output > a3_t4_input
+		a3_t4_output2 > a2_m1_input
+		a3_t4_output1 > a3_c3_input
+		a3_c3_output > a3_t1_input2
+	}
+}
